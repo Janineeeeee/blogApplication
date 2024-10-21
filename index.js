@@ -15,7 +15,7 @@ app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 
 const corsOptions = {
-	origin: ['http://localhost:3000'],
+	origin: ['http://localhost:3000', 'https://swiftink.onrender.com'],
 	credentials: true,
 	optionsSuccessStatus: 200
 };
